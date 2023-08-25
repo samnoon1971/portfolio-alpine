@@ -1,0 +1,43 @@
+/* ContestProfile.css */
+
+.contest-profile-frame {
+    border: 1px solid #ccc; /* Border to create the frame effect */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px; /* Add margin for spacing between profiles */
+    border-radius: 8px; /* Rounded corners for a more elegant look */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    background-color: #fff; /* Set a background color */
+    max-width: fit-content;
+  }
+  
+  .contest-profile {
+    /* Add any additional styling for the profile details */
+  }
+  
+  /* Add any other custom styles as needed */
+  
+
+  .rank-color-legend {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .rank-color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Colors based on Codeforces ranklist */
+  .rank-color-newbie { background-color: #808080; }
+  .rank-color-pupil { background-color: #3eba4d; }
+  .rank-color-specialist { background-color: #01a0e2; }
+  .rank-color-expert { background-color: #00b4ff; }
+  .rank-color-candidate-master { background-color: #8a2be2; }
+  .rank-color-master { background-color: #fc0; }
+  .rank-color-international-master { background-color: #ff4500; }
+  .rank-color-grandmaster { background-color: #e03a3e; }
+  .rank-color-international-grandmaster { background-color: #ff8c00; }
+  .rank-color-legendary-grandmaster { background-color: #ff9900; }

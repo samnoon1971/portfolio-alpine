@@ -1,0 +1,27 @@
+.work-experience {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .position {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .company {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .duration {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
